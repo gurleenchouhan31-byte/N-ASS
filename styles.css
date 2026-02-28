@@ -1,0 +1,68 @@
+body {
+    font-family: "Times New Roman", serif;
+    background: white;
+}
+
+/* Main page box */
+.page {
+    width: 780px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* Outer flex containers */
+.outer {
+    display: flex;
+    background-color: #b7dce8;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Gaps */
+.gap10 { gap: 10px; }
+.gap15 { gap: 15px; }
+.gap12 { gap: 12px; }
+
+/* Inner boxes */
+.box {
+    height: 50px;
+    background-color: #808080;
+    flex: 1;
+}
+
+/* Double-width box */
+.double {
+    flex: 2;
+}
+
+/* Borders where required */
+.bordered {
+    border: 2px solid #555;
+}
+
+/* Column layout for footer section */
+.column {
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+}
+
+/* Footer box */
+.footer {
+    height: 50px;
+    background-color: #808080;
+    margin-top: 12px;
+}
